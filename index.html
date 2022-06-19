@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>    
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="style.css" >
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <title>Portfolio</title>
+
+    </head>
+
+
+    <body>
+        <header>
+            <nav>
+                <div class="logo">
+                    <h4>Portfolio</h4>
+                </div>
+                <ul class="nav-links">
+                    <li><a href="#inicio">Início</a></li>
+                    <li><a href="#about">Sobre</a></li>
+                    <li><a href="#works">Projetos</a></li>
+                    <li><a href="#contact">Contato</a></li>
+                </ul>
+                <div class="lines">
+                    <div class="line1"></div>
+                    <div class="line2"></div>
+                    <div class="line3"></div>
+                </div>
+                
+            </nav>
+        </header>
+        <main class="container" id="inicio">
+            <h3><span class="anim"></span><span class="ndo">ndo...</span></h3>
+            <div class="content">
+                <h4><span class="purple">Olá!</span> meu nome é</h4>
+                <h1>João Gabriel Pitol</h1>
+                <img src="assets/IMG_20220517_212918_190.jpg" alt="foto">
+            </div>
+            <div class="box">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+
+        </main>
+
+        <section class="about-container" id="about">
+            <div class="about">
+                <h1>Sobre mim...</h1>
+                <p>Atulmente morando em <strong>Curitiba-PR</strong> e cursando Ciencia da Computação na PUCPR</p>
+
+                <div class="sobre">
+                    <fieldset>
+                        <p>Desde criança sempre tive muito contato com a técnologia e pude acompanhar de perto o avanço da mesma, assim, sempre fui muito curioso sobre ela.Aos <strong>16</strong> descobri minha
+                        Paixão pela programação e vim a estudando por <strong>2</strong> anos, hoje, com <strong>18 anos</strong>, busco diversas maneiras de <span class="blue">aperfeiçoar meu conhecimento</span>.
+                        </p>
+                    </fieldset>
+                    <div class="exp">
+                        <h2>Experiências:</h2>
+                        <ul>
+                            <li>CSS</li>
+                            <li>HTML</li>
+                            <li>JAVASCRIPT</li>
+                            <li>PYTHON</li>
+                            <li>MYSQL</li>
+                        </ul>
+                    </div>
+                </div>            
+            </div>  
+
+        </section>
+
+        <section class="works" id="works">
+            <h1>Projetos</h1>
+                <ul class="projetos">
+                    <li>
+                        <img src="assets/Screenshot_3.png" alt="jokenpo">
+                        <p>Um jogo feito em sala para entender a lógica por trás das Condições, desenvolvido em <strong>PYTHON</strong> e pode ser jogado tanto contra um BOT quanto por outro jogador(localmente)</p>
+                    </li>
+                    <div class="line"></div>
+                    <li>
+                        <img src="assets/Screenshot_4.png" alt="jogodamemoria">
+                        <p>Um projeto mais complexo utilizando funções e matrizes, feito tambem em <strong>PYTHON</strong> e possui diversas dificuldades, todas influenciando no tamanho da matriz, que, pode ser
+                            4x4, 6x6 ou 10x10, conta com um gerador e embaralhador aleatorio das letras que compoem a matriz</p>
+                    </li>
+                    <div class="line"></div>
+                    <li>
+                        <img src="assets/Screenshot_5.png" alt="slime">
+                        <p>Castelo melequento, como foi chamado, foi um jogo desenvolvido no Game Maker Studio utilizando inteiramente o sistema de Drag and Drop, utilizando de comandos prontos apenas
+                            juntamos os blocos e criamos um jogo exclusivo com mais de 20 fases, sistema de level up e 5 bosses diferentes, alem de uma pequena história que introduz o player ao jogo.
+                        </p>
+                    </li>
+                </ul>
+        </section>
+
+        <section class="contact" id="contact">
+                <h1>Contato</h1>
+                    <ul class="social-list">
+                        <li>
+                            <a class="social-itens" href="https://www.instagram.com/joaopitol/"><ion-icon name="logo-instagram"></ion-icon></a>
+                        </li>
+                        <li>
+                            <a class="social-itens" href="https://github.com/uPistola"><ion-icon name="logo-github"></ion-icon></a>
+                        </li>
+                        <li>
+                           <span class="social-itens"><ion-icon name="mail-outline"></ion-icon> pitoljoaogabriel@gmail.com</span>
+                        </li>
+                        <li>
+                            <span class="social-itens"><ion-icon name="logo-whatsapp"></ion-icon> (55)46-999254094</span>
+                        </li>
+                    </ul>
+
+
+        </section>
+
+        <footer><p>&#169 Direitos reservados</p></footer>
+
+        
+
+        <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+        <script src="app.js"></script>
+        <script src="typed.js"></script>        
+        <script>
+            var typed = new Typed(".anim", {
+                strings: ['Programa','Dormi','Come'],
+
+                typeSpeed: 150,
+                backSpeed: 100,
+                loop: true
+            })
+            
+        </script>
+
+    </body>
+
+</html>
